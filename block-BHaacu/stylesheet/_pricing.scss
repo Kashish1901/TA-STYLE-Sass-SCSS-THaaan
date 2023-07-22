@@ -1,0 +1,30 @@
+.cards{
+    background-color: $background-light;
+}
+.card-box .flex-30{
+    border: .01rem solid $text-light;
+    margin-right: 2rem;
+    margin-top: 4rem;
+    background-color: white;
+    padding: 2rem 2rem;
+    text-align: center;
+    border-radius: .5rem;
+}
+.card-box h6 , .card-box h5{
+    color: $text-light;
+}
+.card-box h2{
+    font-weight: 900;
+}
+.question .flex-45{
+    border: .02rem solid $text-light;
+    padding: 1rem 1.5rem;
+    text-align: left;
+   margin: 1rem;
+}
+.question  .flex-45 p{
+    text-align: left;
+}
+.mini-container{
+    margin-top: 5rem;
+}
