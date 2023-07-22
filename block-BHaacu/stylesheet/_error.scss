@@ -1,0 +1,30 @@
+.hero-main{
+    background-color: $primary;
+    text-align: center;
+   
+}
+.hero-main h1{
+    color: $white;
+    padding: 2rem 1rem;
+}
+.hero-main p {
+    text-align: center;
+    color: $white;
+}
+.found-flex{
+    padding: 2rem 1rem;
+    text-align: center;
+}
+.found-flex i{
+    color: $primary;
+    font-size: 1.5rem;
+    background-color: rgb(238, 237, 237);
+    border-radius: 50%;
+    padding: 1rem;
+    margin-bottom: 1,2rem;
+}
+.found-flex h4{
+    color: $text-dark;
+    font-size: 1.2rem;
+padding: 1rem 0;
+}

@@ -1,0 +1,145 @@
+* , *::before , *::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Archivo', sans-serif;
+    line-height: 1.5;
+}
+html{
+    font-size: 20px;
+}
+.padding{
+    padding: 2rem 1rem;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+padding: 1rem .2rem;
+}
+.align-left{
+    text-align: left;
+}
+.align-start{
+    align-items: flex-start;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-5{
+    flex: 0 1 5%;
+    margin-left: 1rem;
+}
+.flex-20{
+    flex: 0 1 20%;
+   
+}
+.flex-25{
+    flex: 0 1 25%;
+}
+.flex-30{
+    flex: 0 1 30%;
+    
+}
+.flex-40{
+    flex: 0 1 40%;
+}
+.flex-45{
+    flex: 0 1 45%;
+}
+.flex-49{
+    flex: 0 1 50%;
+    padding: 2rem 1rem ;
+    text-align: center;
+}
+.flex-50{
+    flex: 0 1 50%;
+}
+.flex-60{
+    flex: 0 1 60%;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.center{
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    margin-right: .8rem;
+}
+p{
+    color: $text-light;
+    font-size: 1rem;
+    text-align: center;
+    margin: .8rem 0;
+}
+.primary-btn{
+    background-color: $primary;
+    color: $white;
+    border: 0;
+    margin: 1.2rem 0;
+    font-size: 1rem;
+    padding: .5rem 2rem;
+    border-radius: 2rem;
+    font-weight: 300;
+}
+.primary-btn:hover{
+    background-color: $white;
+    color: $primary;
+    border: .02rem solid $primary;
+}
+.secondary-btn{
+    background-color: $white;
+    color: $primary;
+    border: .02rem solid $primary;
+    margin: 1.2rem 0;
+    font-size: 1rem;
+    padding: .5rem 2rem;
+    border-radius: 2rem;
+    font-weight: 300;
+}
+.secondary-btn:hover{
+    background-color: $primary;
+    color: $white;
+    border: .02rem solid $white;
+}
+.tertiary-btn{
+    background-color:$primary;
+    color: $white;
+    border: .02rem solid $white;
+    margin: 1.2rem 0;
+    font-size: 1rem;
+    padding: .5rem 2rem;
+    border-radius: 2rem;
+    font-weight: 300;
+}
+.tertiary-btn:hover{
+    background-color: $white;
+    color: $primary;
+    border: .02rem solid $primary;
+}
+h2{
+    font-size: 2.5rem;
+    color: $text-dark;
+    padding: 1rem 0;
+    text-align: center;
+    font-weight: 600;
+}
+h3{
+    font-size: 1.5rem;
+    color: $text-dark;
+    padding: 1rem 1rem;
+    text-align: center;
+    font-weight: 700;
+}
+h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: $text-light;
+}
+.center{
+    text-align: center;
+    margin: 0 auto;
+}
