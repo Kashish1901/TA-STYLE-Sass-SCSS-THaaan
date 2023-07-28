@@ -1,0 +1,82 @@
+.cards{
+    background-color: $background-light;
+}
+.card-box .flex-30{
+    border: .01rem solid $text-light;
+    margin-right: 2rem;
+    margin-top: 4rem;
+    background-color: white;
+    padding: 2rem 2rem;
+    text-align: center;
+    border-radius: .5rem;
+}
+.card-box h6 , .card-box h5{
+    color: $text-light;
+}
+.card-box h2{
+    font-weight: 900;
+}
+.question .flex-45{
+    border: .02rem solid $text-light;
+    padding: 1rem 1.5rem;
+    text-align: left;
+   margin: 1rem;
+}
+.question  .flex-45 p{
+    text-align: left;
+}
+.mini-container{
+    margin-top: 5rem;
+}
+@media screen and (max-width: 998px) {
+    html{
+        font-size: 17px;
+    }
+    body{
+        line-height: 1.2;
+    }
+    .container{
+        max-width: 900px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .flex-100{
+        flex: 0 1 100%;
+        margin: 1.2rem 0;
+    }
+    .flex{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+  .rows{
+    flex-direction: row;
+  }
+
+}
+@media screen and (max-width: 778px) {
+    .container{
+    max-width: 780px;
+    margin: 1rem 1rem;
+width: 100%;
+    }
+    html{
+        font-size: 17px;
+    }
+    body{
+        line-height: 1.2;
+    }
+    .flex-100{
+        flex: 0 1 100%;
+        margin: 1.2rem 0;
+    }
+    .flex{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+  .rows{
+    flex-direction: row;
+  }
+   
+}
